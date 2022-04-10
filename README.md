@@ -13,6 +13,7 @@
  - Run `composer install` in backend folder.
  - Run migration and seed command using `php artisan migrate --seed`
  - Run `php artisan serve`
+ - Change the `frontend/src/plugins/axios.ts` baseURL to the same as APP_URL in backend.
  - Run `npm install` in frontend folder.
  - Run `npm run serve`
 
